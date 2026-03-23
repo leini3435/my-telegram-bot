@@ -12,7 +12,7 @@ from telegram.ext import (
 TOKEN = "8732531903:AAFbxHAKCVND1s7XuXfl2hUi2nqCa6barBk"
 GROUP_CHAT_ID = -1003736967957  # 注意：只有一個負號
 ADMIN_USER_ID = 1861060591      # 你的 ID
-AD_INTERVAL_SECONDS = 1800      # 每30分鐘
+AD_INTERVAL_SECONDS = 600      # 每30分鐘
 
 # ==================== 管理員命令限制裝飾器 ====================
 def admin_only(func):
